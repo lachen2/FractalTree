@@ -26,7 +26,7 @@ public void drawBranches(int x,int y, double branchLength, double angle, float b
   double angle4 = angle - 2.2 * branchAngle;
   
   //different lengths of branches
-  double rando = ((Math.random() * 1.7 + 9)) / 10;
+  double rando = ((Math.random() * 1.5 + 9)) / 10;
   branchLength = branchLength * fractionLength * rando;
   //ending/starting branches
   int endX1 = (int)(branchLength*Math.cos(angle1) + x);
